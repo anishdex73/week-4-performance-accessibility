@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A lightweight, accessible webpage demonstrating semantic HTML and inclusive design.">
+<title>ClearPath | Accessible Web Design</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header"><div class="container header-inner">
+<a class="brand" href="#home">ClearPath<span>.</span></a>
+<nav aria-label="Main navigation"><ul><li><a href="#principles">Principles</a></li><li><a href="#checklist">Checklist</a></li><li><a href="#testing">Testing</a></li></ul></nav>
+<a class="header-cta" href="#checklist">Explore guide</a>
+</div></header>
+<main id="main">
+<section class="hero" id="home" aria-labelledby="hero-title"><div class="container hero-grid"><div>
+<p class="eyebrow">WEEK 4 • PERFORMANCE + ACCESSIBILITY</p><h1 id="hero-title">A better web for <span>everyone.</span></h1>
+<p class="lead">A lightweight, keyboard-friendly landing page built with semantic HTML and carefully organized CSS.</p><a class="button" href="#principles">Discover the approach</a>
+</div><aside class="hero-note" aria-label="Project highlights"><p class="note-label">DESIGN PRIORITIES</p><ul><li>Clear structure</li><li>Visible keyboard focus</li><li>Readable contrast</li><li>Minimal dependencies</li></ul></aside></div></section>
+<section class="section" id="principles" aria-labelledby="principles-title"><div class="container"><div class="section-heading"><p class="eyebrow">CORE PRINCIPLES</p><h2 id="principles-title">Inclusive by design</h2><p>Accessibility and performance are part of the experience, not final-stage add-ons.</p></div>
+<div class="card-grid"><article class="card"><span class="card-number" aria-hidden="true">01</span><h3>Semantic HTML</h3><p>Landmarks and heading levels help assistive technology understand the page and help everyone navigate content.</p></article>
+<article class="card"><span class="card-number" aria-hidden="true">02</span><h3>Keyboard access</h3><p>Every link can be reached using the keyboard, with a visible focus indicator and a skip link for faster navigation.</p></article>
+<article class="card"><span class="card-number" aria-hidden="true">03</span><h3>Lean assets</h3><p>The page avoids large external libraries, uses a small stylesheet and does not require custom fonts or heavy images.</p></article></div></div></section>
+<section class="section checklist-section" id="checklist" aria-labelledby="checklist-title"><div class="container checklist-grid"><div><p class="eyebrow">PRACTICAL CHECKLIST</p><h2 id="checklist-title">Small details matter.</h2><p class="muted">Use this checklist as a starting point when reviewing a webpage for accessibility and performance.</p></div>
+<ul class="checklist"><li><span aria-hidden="true">✓</span> Set the document language and viewport.</li><li><span aria-hidden="true">✓</span> Use landmarks and a logical heading order.</li><li><span aria-hidden="true">✓</span> Provide a skip link and visible focus styles.</li><li><span aria-hidden="true">✓</span> Use readable text and sufficient contrast.</li><li><span aria-hidden="true">✓</span> Keep dependencies and page assets lightweight.</li><li><span aria-hidden="true">✓</span> Test with keyboard and accessibility tools.</li></ul></div></section>
+<section class="section" id="testing" aria-labelledby="testing-title"><div class="container testing-grid"><div><p class="eyebrow">TEST, REVIEW, IMPROVE</p><h2 id="testing-title">Measure what matters.</h2><p class="muted">Automated tools can identify common issues, but manual keyboard and screen-reader checks remain important.</p></div>
+<div class="test-list"><article><h3>Performance</h3><p>Use Lighthouse to review performance opportunities, page weight and loading behavior.</p></article><article><h3>Accessibility</h3><p>Use WAVE or axe DevTools to identify potential contrast, labeling and structure issues.</p></article><article><h3>Manual review</h3><p>Navigate using Tab, Shift+Tab and Enter. Confirm focus is visible and links make sense out of context.</p></article></div></div></section>
+</main><footer class="site-footer"><div class="container footer-inner"><p>© 2026 ClearPath • Week 4 Internship Project</p><a href="#home">Back to top ↑</a></div></footer>
+</body></html>
